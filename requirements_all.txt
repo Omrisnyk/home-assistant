@@ -1900,3 +1900,4 @@ zigpy-xbee-homeassistant==0.3.0
 
 # homeassistant.components.zoneminder
 zm-py==0.3.3
+gitpython>=3.1.27 # not directly required, pinned by Snyk to avoid a vulnerability
