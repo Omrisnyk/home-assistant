@@ -1,5 +1,5 @@
 # Home Assistant core
-aiohttp==3.5.4
+aiohttp==3.8.0
 astral==1.10.1
 async_timeout==3.0.1
 attrs==19.1.0
@@ -1900,3 +1900,5 @@ zigpy-xbee-homeassistant==0.3.0
 
 # homeassistant.components.zoneminder
 zm-py==0.3.3
+gitpython>=3.1.27 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
