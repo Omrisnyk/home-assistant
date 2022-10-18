@@ -1829,7 +1829,7 @@ webexteamssdk==1.1.1
 websocket-client==0.54.0
 
 # homeassistant.components.webostv
-websockets==6.0
+websockets==10.0
 
 # homeassistant.components.wirelesstag
 wirelesstagpy==0.4.0
@@ -1900,3 +1900,4 @@ zigpy-xbee-homeassistant==0.3.0
 
 # homeassistant.components.zoneminder
 zm-py==0.3.3
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
