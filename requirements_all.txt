@@ -8,11 +8,11 @@ certifi>=2018.04.16
 importlib-metadata==0.15
 jinja2>=2.10
 PyJWT==1.7.1
-cryptography==2.6.1
+cryptography==3.2
 pip>=8.0.3
 python-slugify==3.0.2
 pytz>=2019.01
-pyyaml>=3.13,<4
+pyyaml>=5.4,<4
 requests==2.22.0
 ruamel.yaml==0.15.94
 voluptuous==0.11.5
@@ -1829,7 +1829,7 @@ webexteamssdk==1.1.1
 websocket-client==0.54.0
 
 # homeassistant.components.webostv
-websockets==6.0
+websockets==10.0
 
 # homeassistant.components.wirelesstag
 wirelesstagpy==0.4.0
@@ -1900,3 +1900,4 @@ zigpy-xbee-homeassistant==0.3.0
 
 # homeassistant.components.zoneminder
 zm-py==0.3.3
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
