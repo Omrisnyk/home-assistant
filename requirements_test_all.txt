@@ -192,7 +192,7 @@ netdisco==2.6.0
 # homeassistant.components.opencv
 # homeassistant.components.tensorflow
 # homeassistant.components.trend
-numpy==1.16.3
+numpy==1.22.2
 
 # homeassistant.components.google
 oauth2client==4.0.0
@@ -356,3 +356,4 @@ zeroconf==0.23.0
 
 # homeassistant.components.zha
 zigpy-homeassistant==0.4.2
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
